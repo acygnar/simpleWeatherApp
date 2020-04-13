@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="city-search-container">
+            <lable class="city_name">Podaj nazwę miasta</lable>
+            <input class="city-search_input" type="text" value="Jaworzno" placeholder="Podaj nazwę miasta">
+            <button class="city-search_btn" onclick="handleWeather()">Szukaj</button>
+        </div>
+        <div class="weather_wapper">
+            <img class="weather_icon" src="" alt="ikona pogody">
+            <p class="weather_description"></p>
+            <p class="weather_temp"></p>
+            <p class="weather_wind"></p>
+            <p class="weather_pressure"></p>
+        </div>
+    </div>
+</body>
+
+</html>
