@@ -4,7 +4,6 @@ const api = "https://api.openweathermap.org/data/2.5/weather?q=";
 const key="19531f89e9530005f79d5223a7de63ee";
 
 
-
 if(searchInput == ''){
   console.log("Podaj nazwę miasta")
 }
