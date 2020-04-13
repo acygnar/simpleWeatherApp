@@ -17,7 +17,7 @@ fetch(`${api}${searchInput}&units=metric&appid=${key}`)
     const weatherDescriptionApi = data.weather[0].description;
     const weatherIconApi = data.weather[0].icon;
     const weatherIcon = document.querySelector(".weather_icon");
-    const iconSrc=`http://openweathermap.org/img/wn/${weatherIconApi}@2x.png`;
+    const iconSrc=`https://openweathermap.org/img/wn/${weatherIconApi}@2x.png`;
     const temp = document.querySelector(".weather_temp");
     const tempApi = data.main.temp;
     const wind = document.querySelector(".weather_wind");
