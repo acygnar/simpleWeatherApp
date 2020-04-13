@@ -36,8 +36,6 @@ fetch(`${api}${searchInput}&units=metric&appid=${key}`)
   .catch(err => {
     console.log(err);
   });
-
-
 }
 }
 
